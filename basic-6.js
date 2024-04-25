@@ -8,7 +8,14 @@
  */
 
 function isAdult(person) {
-    return;
+    console.log("🚀 ~ file: basic-6.js:11 ~ isAdult ~ person:", person)
+    //if the age > 18 = true, else = false
+    if (person.age >= 18){
+        return true;
+    } else {
+        return false;
+    }
+
 }
 
 // Caso de prueba 1: Persona justo por debajo de la mayoría de edad

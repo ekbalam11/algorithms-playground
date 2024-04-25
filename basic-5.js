@@ -7,9 +7,13 @@
  * 
  * @param {array} names 
  */
-
 function canWeMakePairs(names) {
-    return;
+    //Si el length del array es par = true, if else = false
+    if(names.length % 2 == 0){
+        return true;
+    } else {
+        return false;
+    }
 }
 
 console.log(canWeMakePairs(["Alice", "Bob", "Charlie", "David"])); // true, se espera true porque hay 4 personas (número par)
